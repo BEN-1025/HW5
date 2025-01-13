@@ -33,48 +33,48 @@
     <script>
       function show(){
         
-      money = 0
+      let money = 0;
       //印表機
       if(c1.checked==true)
       {
-        money += 45000
+        money += 45000;
       }
 
       if(c2.checked==true)
       {
-        money += 65000
+        money += 65000;
       }
 
       if(c3.checked == true)
       {
-        money += 5000
+        money += 5000;
       }
 
       if(r1.checked==true)
       {
-        money += 45000
+        money += 45000;
       }
       else if(r2.checked==true)
       {
-        money += 15000
+        money += 15000;
       }
       else if(r3.checked==true)
       {
-        money += 7000
+        money += 7000;
       }
 
       //other
       if(r4.checked==true)
       {
-        money += 9000
+        money += 9000;
       }
       else if(r5.checked==true)
       {
-        money += 5000
+        money += 5000;
       }
       else if(r6.checked==true)
       {
-        money += 4000
+        money += 4000;
       }
       //output
       alert("總金額為" + money + "元")
@@ -202,7 +202,7 @@
           <input id="r6" name="other" type="radio">Seagate硬碟 80GB：4,000元
       </p>
       <p>
-        <input type="button" value="計算金額">
+        <button onclick="show()">計算金額</button>
       </p>
         </div>
 
